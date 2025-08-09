@@ -4,7 +4,10 @@ ps aux | grep -i barcode | grep -v grep
 kill 606 (PID)
 
 ls -lh /home/robotics/*barcode*json
+
 sudo tail -n 50 /home/robotics/current_barcode_data.json
+
+
 sudo tail -n 50 /home/robotics/barcode_buffer.json
 
 
