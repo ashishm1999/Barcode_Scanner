@@ -1,4 +1,13 @@
 # Barcode_Scanner
+
+ps aux | grep -i barcode | grep -v grep
+kill 606 (PID)
+
+ls -lh /home/robotics/*barcode*json
+sudo tail -n 50 /home/robotics/current_barcode_data.json
+sudo tail -n 50 /home/robotics/barcode_buffer.json
+
+
 https://claude.ai/chat/c3a3d8fa-2901-49d7-b21e-774c3572eaac
 # Factory Barcode Scanner System
 
